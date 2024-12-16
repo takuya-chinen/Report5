@@ -4,9 +4,8 @@ public class App {
         try {
             System.out.println(str.length()); // NullPointerException
         } catch (NullPointerException e) {
-            String message = e.getMessage();
             System.out.println("例外: NullPointerExceptionが発生しました。");
-            System.out.println(message);
+            System.out.println(e.getMessage());
         }
 
     }
